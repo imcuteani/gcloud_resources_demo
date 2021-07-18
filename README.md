@@ -10,3 +10,4 @@ Pre-requisites:
 Google Cloud SDK
 VS Code
 Terraform 0.14+
+GCloud Plugin for Terraform
