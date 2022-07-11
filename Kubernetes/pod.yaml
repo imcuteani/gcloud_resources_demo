@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-demo
+  labels:
+    name: nginx-demo
+spec:
+  containers:
+    - image: marketplace.gcr.io/google/nginx1
+      name: nginx
