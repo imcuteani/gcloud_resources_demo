@@ -1,5 +1,6 @@
 # Variable files
 terraform.tfvars
+.terraform.lock.hcl
 *.tfvars
 
 ### https://raw.github.com/github/gitignore/abad92dac5a4306f72242dae3bca6e277bce3615/Terraform.gitignore
@@ -10,6 +11,8 @@ terraform.tfvars
 *.terraform.lock.hcl
 *.tfplan
 *.terraform.lock
+*.tfplan
+
 
 
 # Go vendor directory
