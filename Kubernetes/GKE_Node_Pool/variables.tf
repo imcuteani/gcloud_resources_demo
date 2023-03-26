@@ -75,6 +75,7 @@ variable "gcp_credentials" {
   description = "The GCP credentials"
 }
 
+# added Cloud SQL db name
 variable "sql_database_name" {
   type = string
   description = "The Cloud SQL database name"
