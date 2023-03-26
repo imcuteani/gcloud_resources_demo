@@ -40,5 +40,5 @@ resource "google_sql_database_instance" "instance_name" {
   settings {
     tier = "db-f1-micro"
   }
-  deletion_protection = "true"
+  deletion_protection = "false"
 }
